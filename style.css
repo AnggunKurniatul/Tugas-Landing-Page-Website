@@ -22,12 +22,19 @@ nav ul{
 .menu{
     display: flex;
     justify-content: space-around;
-    
 }
 
 .menu:hover{
     color: #13C2C2;
     cursor: pointer;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #13C2C2;
 }
 
 #button-navbar{
@@ -66,4 +73,222 @@ button{
 
 #register:hover{
     background-color: #28A19C;
+}
+
+main{
+    font-family: 'Poppins';
+}
+
+#getstarted{
+    display: flex;
+    margin-top: 28px;
+    margin-left: 49px;
+    margin-right: 49px;
+}
+
+#getstarted h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 46px;
+    color: #006D75;
+    margin-top: 97px;
+    margin-bottom: 15.5px;
+}
+
+#getstarted h4{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #36CFC9;
+    margin-bottom: 11px;
+}
+
+#getstarted p{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6D6D6D;
+    margin-bottom: 45px;
+}
+
+#getstarted button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 211px;
+    align-items: center;
+    padding: 6.4px 15px;
+    gap: 10px;
+    height: 50px;
+    background: #36CFC9;
+    border: 1px solid #36CFC9;
+    border-radius: 5px;
+}
+
+#getstarted button:hover{
+    cursor: pointer;
+    background-color: #237B77;
+}
+
+#getstarted img{
+    width: 702px;
+    height: 513px;
+    left: 689px;
+    top: 101px;
+}
+
+#fitur{
+    margin-top: 39px;
+}
+
+#fitur h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #006D75;
+    margin-bottom: 65.5px;
+}
+
+.fitur-1{
+    display: flex;
+    justify-content: center;
+    margin-left: 266px;
+    margin-right: 277px;
+}
+
+.fitur-1 img{
+    width: 209px;
+    height: 210px;
+    margin-right: 246px;
+}
+
+.fitur-1 h3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    color: #40514E;
+    margin-bottom: 15px;
+}
+
+.fitur-1 p{
+    width: 442px;
+    height: 102px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    color: #6D6D6D;
+    margin-bottom: 5px;
+}
+
+.fitur-1 button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 162px;
+    height: 41px;
+    background: #36CFC9;
+    border: 1px solid #36CFC9;
+}
+
+.fitur-1 button:hover{
+    cursor: pointer;
+    background-color: #28A19C;
+}
+
+.fitur-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 266px;
+    margin-right: 177px;
+    margin-bottom: 50px;
+}
+
+.fitur-2 h3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    color: #40514E;
+    margin-bottom: 15px;
+}
+
+.fitur-2 p{
+    width: 442px;
+    height: 102px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    color: #6D6D6D;
+    margin-bottom: 5px;   
+}
+
+.fitur-2 button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 162px;
+    height: 41px;
+    background: #36CFC9;
+    border: 1px solid #36CFC9;   
+}
+
+.fitur-2 button:hover{
+    cursor: pointer;
+    background-color: #28A19C;
+}
+
+.fitur-2 img{
+    width: 209px;
+    height: 210px;
+    margin-left: 213px;
+    margin-right: 246px;   
+}
+
+footer{
+    padding-left: 59px;
+    padding-right: 31.31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 71px;
+    color: #E3E3E3;
+    background-color: #40514E;
+}
+
+footer img{
+    margin-left: 35px;
+}
+
+footer img:hover{
+    cursor: pointer;
 }
