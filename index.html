@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calc Health</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
 </head>
 <body>
+    <!-- Tambahkan kode kalian di sini -->
     <header>
         <nav>
             <ul>
@@ -87,13 +88,26 @@
             <h2 id="About">About</h2>
             <div class="about">
                 <img src="https://i.ibb.co/8mz8nVm/Logo-Calc-Health-removebg-preview-1.png" alt="">
-                <p><strong>Calc Health</strong> adalah kalkulator kesehatan untuk kita semua. Dilengkapi dengan 3 fitur tracking yang dapat membantu dalam pemilihan makanan yang baik untuk tubuh. Track Calori yang membantu kita dalam penghitungan calori dari makanan yang kita pilih. Track Carbon yang membantu kita dalam melakukan penghitungan jumlah efek carbon dari makanan yang kita pilih. Dan Track Diet yang membantu kita dalam menentukan cara diet terbaik untuk tubuh. <b>Bersama Calc Health Jaga Tubuh, Jaga Bumi!!!</b></p>
+                <p id="description"><strong>Calc Health</strong> adalah kalkulator kesehatan untuk kita semua. Dilengkapi dengan 3 fitur tracking yang dapat membantu dalam pemilihan makanan yang baik untuk tubuh. Track Calori yang membantu kita dalam penghitungan calori dari makanan yang kita pilih. Track Carbon yang membantu kita dalam melakukan penghitungan jumlah efek carbon dari makanan yang kita pilih. Dan Track Diet yang membantu kita dalam menentukan cara diet terbaik untuk tubuh. <b>Bersama Calc Health Jaga Tubuh, Jaga Bumi!!!</b></p>
                 <h3>Challenge Partner and Mitra</h3>
                 <div>
-                    <img src="https://i.ibb.co/w4msqhs/image-44.png" alt="">
-                    <img src="https://i.ibb.co/BfFnHVp/image-26.png" alt="">
+                    <a id="link" href="https://skilvul.com">
+                        <img src="https://i.ibb.co/w4msqhs/image-44.png" alt="">
+                    </a>
+                    <img id="danone" src="https://i.ibb.co/BfFnHVp/image-26.png" alt="">
                 </div>
             </div>
+            <h2 id="join">Join Partner & Mitra</h2>
+            <form action="" id="form">
+                <input id="name" type="text" placeholder="Nama Lengkap"/>
+                <input id="city" type="text" placeholder="Kabupaten/Kota"/>
+                <input id="email" type="email" placeholder="Email"/>
+                <input id="zip-code" type="number" placeholder="Kode Pos"/>
+                <label for="" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+                <input id="status" type="checkbox"/>
+                <button id="submit-form" type="submit">Submit</button>
+                <div id="warning"></div>
+            </form>
         </div>
     </main>
     <footer>

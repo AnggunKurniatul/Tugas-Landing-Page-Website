@@ -1,3 +1,4 @@
+/* Tambahkan kode CSS kalian di file ini */
 * {
     margin: 0;
     padding: 0;
@@ -286,7 +287,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 66px;
+    margin: 0px 66px;
 }
 
 .about img{
@@ -295,7 +296,7 @@ main{
     margin-bottom: 10px;
 }
 
-.about p{
+.about #description{
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 20px;
@@ -326,8 +327,54 @@ main{
 
 .about div img{
     margin: 20px;
+    height: 100px;
+    width: 200px;
 }
 
+.about #danone{
+    height: 100px;
+    width: 100px;
+}
+
+#fitur #join{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    margin: 0px 66px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+form input{
+    width: 600px;
+    height: 20px;
+}
+
+form #status{
+    width: 16px;
+    height: 16px;
+}
+
+form #submit-form{
+    width: 60px;
+    margin-top: 10px;
+    padding: 5px 5px;
+    border: 1px solid #36CFC9;
+    background-color: #36CFC9;
+    color: #FFFFFF;
+}
+
+form #submit-form:hover{
+    background-color: #28A19C;
+}
 footer{
     padding-left: 59px;
     padding-right: 31.31px;
